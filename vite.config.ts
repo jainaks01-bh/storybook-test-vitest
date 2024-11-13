@@ -7,19 +7,18 @@ export default defineConfig({
   plugins: [react()],
   server: {
     headers: {
-      'Service-Worker-Allowed': '/'
-    }
+      'Service-Worker-Allowed': '/',
+    },
   },
   css: {
     modules: {
       localsConvention: 'camelCase',
-    }
+    },
   },
-  // test: {
+  // vitest: {
   //   globals: true,
   //   environment: 'jsdom',
   //   setupFiles: ['./.storybook/vitest.setup.ts'],
   //   css: true
   // }
-})
-
+});
