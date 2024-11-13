@@ -1,0 +1,13 @@
+# Ignore artifacts:
+build/
+dist/
+coverage/
+
+# Ignore specific files:
+notes/
+public/
+*.min.css
+*.min.js
+
+# Ignore node_modules:
+node_modules/
